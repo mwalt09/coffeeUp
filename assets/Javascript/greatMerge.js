@@ -471,16 +471,6 @@ function initMap() {
 
       map.setCenter(pos);
 
-      // GeoMarker = new GeolocationMarker();
-      // GeoMarker.setCircleOptions({fillColor: '#808080'});
-      //
-      // GeoMarker.setMap(map);
-
-      // infoWindowUser.setPosition(pos);
-      // infoWindowUser.setContent('Location found.');
-      // infoWindowUser.open(map);
-      // map.setCenter(pos);
-
       search();
 
     }, function() {
@@ -652,6 +642,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
             cancelTouch();
             if (difference > 0) {
               $(this).carousel('next');
+              counter++;
             }
             else {
               $(this).carousel('prev');
