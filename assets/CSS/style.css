@@ -710,7 +710,7 @@ body {
 /* ============================================== 320 px ==========================*/
 
 
-@media screen and (max-width: 320px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 675px) {
 
   #title {
     width:80%;
