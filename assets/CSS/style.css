@@ -710,7 +710,7 @@ body {
 /* ============================================== 320 px ==========================*/
 
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-width: 320px) {
 
   #title {
     width:80%;
@@ -740,7 +740,7 @@ body {
     }
 
   #map{
-    height: 0;
+    height: 80%;
     width: 100%;
     padding-bottom: 22.25%;
     padding-top: 30px;
