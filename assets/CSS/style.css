@@ -347,7 +347,7 @@ body {
 
 /*=================================================== RESPONSIVE =============================================================*/
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-device-width: 1366px) {
 
   header {
     margin-bottom: 0;
@@ -462,7 +462,7 @@ body {
 
 /* ============================================== 1280 px ==========================*/
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-device-width: 1280px) {
 
   #title {
     margin-top: 20px;
@@ -553,7 +553,7 @@ body {
 
 /* ============================================== 960 px ==========================*/
 
-@media screen and (max-width: 960px) {
+@media screen and (max-device-width: 960px) {
 
   #title {
     width: 700px;
@@ -647,7 +647,7 @@ body {
 /* ============================================== 640 px ==========================*/
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-device-width: 640px) {
 
   #title {
     width: 380px;
